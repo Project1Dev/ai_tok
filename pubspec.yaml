@@ -1,0 +1,37 @@
+name: ai_tok
+description: A TikTok-style Flutter app with optimized performance.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI Components
+  cupertino_icons: ^1.0.5
+  shimmer: ^3.0.0
+  cached_network_image: ^3.2.3
+  
+  # Animations
+  lottie: ^2.3.2
+  
+  # State Management
+  provider: ^6.0.5
+  
+  # Utilities
+  flutter_displaymode: ^0.6.0  # For high refresh rate support
+  universal_platform: ^1.0.0+1  # Platform detection
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+    assets:
+      - assets/placeholders/placeholder_1.jpg
+      - assets/placeholders/placeholder_2.jpg
+      - assets/placeholders/placeholder_3.jpg
